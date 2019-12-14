@@ -39,8 +39,9 @@ class mark(x: Int, y: Int) : gameObject(x, y) {
             }
         }
 
-
-        update(board, xPos, yPos, newPosX, newPosY)
+        if(xPos != newPosX || yPos != newPosY) {
+            update(board, xPos, yPos, newPosX, newPosY)
+        }
 
        return arrayOf(newPosX, newPosY)
     }
