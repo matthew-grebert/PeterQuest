@@ -25,7 +25,7 @@ object boardModel {
 
 
 
-    var currRoom = 12
+    var currRoom = 1
     var numEnemies = 0
     var newRoom = true
     var peterCycle = 1;
@@ -111,7 +111,6 @@ object boardModel {
 
     init {
         drawRoom()
-
     }
 
 
@@ -916,8 +915,8 @@ object boardModel {
                 board[i][j].isBloody = true
             }
         }
-        var peter2 = peter2(0, 4)
-        board[0][4].gameObject = peter2
+        var peter2 = peter2(0, 2)
+        board[0][2].gameObject = peter2
         enemies[0] = peter2;
 
 
