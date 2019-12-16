@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AboutActivity"
+    tools:showIn="@layout/activity_about">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:text="You walk into class Monday morning excited to learn something new about app development, but alas, your beloved professor and several of your fellow students have been turned into monsters! Now you must find a way to escape the classroom (which has mysteriously transformed into a multi-leveled dungeon) using nothing but your wits and a baseball bat! Best of luck, you’ll need it."
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginTop="40dp">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/ivAvatar"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/avatar"
+                    android:padding="5dp"/>
+
+                <ImageView
+                    android:id="@+id/ivBat"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/bat"
+                    android:padding="5dp"/>
+
+                <ImageView
+                    android:id="@+id/ivStairs"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/stairs"
+                    android:padding="5dp"/>
+
+                <ImageView
+                    android:id="@+id/ivLock"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/lock"
+                    android:padding="5dp"/>
+
+                <ImageView
+                    android:id="@+id/ivMark"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/mark"
+                    android:padding="5dp"/>
+
+                <ImageView
+                    android:id="@+id/ivMaxine"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/maxine"
+                    android:padding="5dp"/>
+
+                <ImageView
+                    android:id="@+id/ivWinston"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/winston"
+                    android:padding="5dp"/>
+
+                <ImageView
+                    android:id="@+id/ivAndrei"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/andrie"
+                    android:padding="5dp"/>
+                <ImageView
+                    android:id="@+id/ivRock"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/rock"
+                    android:padding="5dp"/>
+                <ImageView
+                    android:id="@+id/ivTintedRock"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/tinted_rock"
+                    android:padding="5dp"/>
+                <ImageView
+                    android:id="@+id/ivSpikes"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/blood_spikes"
+                    android:padding="5dp"/>
+                <ImageView
+                    android:id="@+id/ivFire"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/fire"
+                    android:padding="5dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="2">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="This is you! You can move up, down, left and right using the arrow keys and attack above you using the 'ATTACK' button." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="This bat is your friend. You can use it to attack monsters directly in front of you." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="These are the stairs to the next level!" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="If this appears in place of a staircase, you’ll need to kill all of the monsters on this floor before it’s safe to move on." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="This is a Mark monster. For every step you take, it will take a step closer to you." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="This is a Maxine monster. It will mirror every move you make." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="This is a Winston monster. Watch out; it spits fire." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="This is an Andrei monster. He runs around randomly leaving toxic gunk behind him." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="It’s a rock. Can’t go over it, can’t go under it. Gotta go around it." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Tinted rocks are tied to the life force of Maxine monsters. Kill one and the rock will disappear!!" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Careful, spikes are sharp! Pro tip: monsters will die if they run into these too." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Fire is hot. Don’t touch it." />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</androidx.core.widget.NestedScrollView>

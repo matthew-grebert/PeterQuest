@@ -1,5 +1,10 @@
 package com.example.peterquest.board
 
+import android.content.Context
+import android.content.Intent
+import androidx.core.content.ContextCompat.startActivity
+import com.example.peterquest.MainActivity
+import com.example.peterquest.WinActivity
 import com.example.peterquest.gameObjects.Avatar.avatar
 import com.example.peterquest.gameObjects.Avatar.bat
 import com.example.peterquest.gameObjects.Avatar.bloodBat
@@ -1001,6 +1006,7 @@ object boardModel {
             delay(300)
             currRoom = 1
             drawRoom()
+
 
         }
 

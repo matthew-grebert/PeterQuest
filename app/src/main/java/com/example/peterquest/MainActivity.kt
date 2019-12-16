@@ -1,5 +1,6 @@
 package com.example.peterquest
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
@@ -29,6 +30,12 @@ class MainActivity : AppCompatActivity() {
         }
         btnAttack.setOnClickListener{
             boardView.attack()
+        }
+
+        btnMenu.setOnClickListener(){
+            val intent = Intent(this,
+                MenuActivity::class.java)
+            startActivity(intent)
         }
 
     }
