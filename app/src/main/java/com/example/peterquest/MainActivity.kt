@@ -37,6 +37,7 @@ class MainActivity : AppCompatActivity() {
                 MenuActivity::class.java)
             startActivity(intent)
         }
+        //?
 
     }
 
