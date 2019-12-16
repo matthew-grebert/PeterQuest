@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
 
             android:gravity="center"
-            android:text="You walk into class Monday morning excited to learn something new about app development, but alas, your beloved professor and several of your fellow students have been turned into monsters! Now you must find a way to escape the classroom (which has mysteriously transformed into a multi-leveled dungeon) using nothing but your wits and a baseball bat! Best of luck, you’ll need it."
+            android:text="@string/plot_summary"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textStyle="bold" />
 
@@ -128,62 +128,62 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="80dp"
-                    android:text="This is you! You can move up, down, left and right using the arrow keys and attack above you using the 'ATTACK' button." />
+                    android:text="@string/avatar_descript" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="80dp"
-                    android:text="This bat is your friend. You can use it to attack monsters directly in front of you." />
+                    android:text="@string/bat_descript" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="80dp"
-                    android:text="These are the stairs to the next level!" />
+                    android:text="@string/stairs_descript" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="80dp"
-                    android:text="If this appears in place of a staircase, you’ll need to kill all of the monsters on this floor before it’s safe to move on." />
+                    android:text="@string/lock_descript" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="80dp"
-                    android:text="This is a Mark monster. For every step you take, it will take a step closer to you." />
+                    android:text="@string/mark_descript" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="80dp"
-                    android:text="This is a Maxine monster. It will mirror every move you make." />
+                    android:text="@string/maxine_descript" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="80dp"
-                    android:text="This is a Winston monster. Watch out; it spits fire." />
+                    android:text="@string/winston_descript" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="80dp"
-                    android:text="This is an Andrei monster. He runs around randomly leaving toxic gunk behind him." />
+                    android:text="@string/andrie_descript" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="80dp"
-                    android:text="It’s a rock. Can’t go over it, can’t go under it. Gotta go around it." />
+                    android:text="@string/rock_descript" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="80dp"
-                    android:text="Tinted rocks are tied to the life force of Maxine monsters. Kill one and the rock will disappear!!" />
+                    android:text="@string/tinted_rock_descript" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="80dp"
-                    android:text="Careful, spikes are sharp! Pro tip: monsters will die if they run into these too." />
+                    android:text="@string/spikes_descript" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="80dp"
-                    android:text="Fire is hot. Don’t touch it." />
+                    android:text="@string/fire__descript" />
 
             </LinearLayout>
 

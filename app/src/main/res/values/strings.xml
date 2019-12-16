@@ -91,4 +91,19 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="ActionSettings">Settings</string>
+    <string name="win_message">Congrats, here\'s a sticker.</string>
+    <string name="you_won">You Won!</string>
+    <string name="plot_summary">You walk into class Monday morning excited to learn something new about app development, but alas, your beloved professor and several of your fellow students have been turned into monsters! Now you must find a way to escape the classroom (which has mysteriously transformed into a multi-leveled dungeon) using nothing but your wits and a baseball bat! Best of luck, you’ll need it.</string>
+    <string name="avatar_descript">This is you! You can move up, down, left and right using the arrow keys and attack above you using the \'ATTACK\' button.</string>
+    <string name="bat_descript">This bat is your friend. You can use it to attack monsters directly in front of you.</string>
+    <string name="stairs_descript">These are the stairs to the next level!</string>
+    <string name="lock_descript">If this appears in place of a staircase, you’ll need to kill all of the monsters on this floor before it’s safe to move on.</string>
+    <string name="mark_descript">This is a Mark monster. For every step you take, it will take a step closer to you.</string>
+    <string name="maxine_descript">This is a Maxine monster. It will mirror every move you make.</string>
+    <string name="winston_descript">This is a Winston monster. Watch out; it spits fire.</string>
+    <string name="andrie_descript">This is an Andrie monster. He runs around randomly leaving toxic gunk behind him.</string>
+    <string name="rock_descript">It’s a rock. Can’t go over it, can’t go under it. Gotta go around it.</string>
+    <string name="tinted_rock_descript">Tinted rocks are tied to the life force of Maxine monsters. Kill one and the rock will disappear!!</string>
+    <string name="spikes_descript">Careful, spikes are sharp! Pro tip: monsters will die if they run into these too.</string>
+    <string name="fire__descript">Fire is hot. Don’t touch it.</string>
 </resources>

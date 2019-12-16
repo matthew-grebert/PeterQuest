@@ -29,7 +29,6 @@ import kotlin.random.Random
 object boardModel {
 
 
-
     var currRoom = 1
     var numEnemies = 0
     var newRoom = true
